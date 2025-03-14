@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Define the Gilroy font */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Regular.ttf') format('woff2'),
+       url('./fonts/Gilroy-Regular.ttf') format('woff');
+}
+
+/* @font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+       url('./fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+} */
+
+/* Apply Gilroy as the default font */
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+body{
+  background-color: black;
+}
+*{
+  color: #fff;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
