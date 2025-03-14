@@ -30,3 +30,19 @@ body{
 #tasklist::-webkit-scrollbar{
   display: none;
 }
+
+/* Define the wiggle animation */
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+}
+
+/* Apply the animation to the .animate-wiggle class */
+.animate-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+  display: inline-block; /* Ensure the emoji is treated as a block-level element */
+}

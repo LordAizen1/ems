@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import AuthContext from "../../context/AuthContext";
 
-
 const Header = () => {
   const { userData, setUserData } = useContext(AuthContext);
 
@@ -16,7 +15,7 @@ const Header = () => {
       <h1 className="text-2xl font-semibold">
         Hello, <br />
         <span className="font-semibold text-3xl">
-          {userData ? userData.firstName : "Guest"} 👋🏼
+          {userData ? userData.firstName : "Guest"} <span className="animate-wiggle">👋🏼</span>
         </span>
       </h1>
       <button
