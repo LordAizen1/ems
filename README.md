@@ -32,7 +32,7 @@ The **Employee Management System (EMS)** is a web application designed to manage
 - Fun and engaging animations, such as a **wiggling hand emoji** 👋🏼 in the header.
 
 ### **Responsive Design**
-- The application is fully responsive and works seamlessly on all screen sizes.
+- Works well for larger screens, will work for different screen sizes.
 
 ---
 
@@ -59,7 +59,7 @@ The **Employee Management System (EMS)** is a web application designed to manage
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ems.git
+   git clone https://github.com/LordAizen1/ems.git
    cd ems
    ```
 
