@@ -95,10 +95,10 @@ https://LordAizen1.github.io/ems
 ![Login Screen](login.png)
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](admin-dashboard.png)
 
 ### Employee Dashboard
-![Employee Dashboard](screenshots/employee-dashboard.png)
+![Employee Dashboard](employee-dashboard.png)
 
 ---
 
