@@ -3,8 +3,8 @@
 /* Define the Gilroy font */
 @font-face {
   font-family: 'Gilroy';
-  src: url('./fonts/Gilroy-Regular.ttf') format('woff2'),
-       url('./fonts/Gilroy-Regular.ttf') format('woff');
+  src: url('/fonts/Gilroy-Regular.ttf') format('woff2'),
+       url('/fonts/Gilroy-Regular.ttf') format('woff');
 }
 
 /* @font-face {
