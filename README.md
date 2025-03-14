@@ -92,7 +92,7 @@ https://LordAizen1.github.io/ems
 ## Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/login.png)
+![Login Screen](login.png)
 
 ### Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard.png)
