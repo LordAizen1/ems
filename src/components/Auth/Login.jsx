@@ -12,7 +12,12 @@ const Login = ({ handleLogin }) => {
   };
 
   return (
-    <div className='flex h-screen w-screen items-center justify-center'>
+    <div className='flex flex-col h-screen w-screen items-center justify-center'>
+      <div className='font-bold !text-red-600 text-3xl mb-20'>
+        Employee Management System
+      </div>
+
+      {/* Login Box */}
       <div className='border-2 rounded-xl border-red-600 p-20'>
         <form onSubmit={submitHandler} className='flex flex-col w-90 items-center justify-center'>
           <input
@@ -31,10 +36,13 @@ const Login = ({ handleLogin }) => {
             type="password"
             placeholder='Enter password'
           />
-          <button className='rounded-full px-4 py-4 text-xl text-white bg-red-500 placeholder:text-white w-full mt-5'>
+          <button className='rounded-full px-4 py-4 text-xl text-white bg-red-500 placeholder:text-white w-full mt-5 hover:bg-red-900'>
             Log In
           </button>
         </form>
+      </div>
+      <div className='font-light !text-red-600 text-sm mt-20'>
+        A small ReactJS project by Md Kaif.
       </div>
     </div>
   );
