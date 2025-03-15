@@ -47,7 +47,7 @@ const employees = [
       { "title": "Social Media Strategy", "description": "Plan the next quarter’s social media content.", "date": "2025-03-19", "category": "Marketing", "active": true, "new_task": true, "completed": false, "failed": false, "priority": "Medium" },
       { "title": "Employee Training", "description": "Organize and conduct training for new hires.", "date": "2025-03-21", "category": "HR", "active": false, "new_task": false, "completed": true, "failed": false, "priority": "Low" }
     ],
-    "taskNumbers": { "active": 1, "new_task": 1, "completed": 1, "failed": 1 }
+    "taskNumbers": { "active": 1, "new_task": 1, "completed": 1, "failed": 0 }
   },
   {
     "id": 5,
