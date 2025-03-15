@@ -60,6 +60,37 @@ const employees = [
       { "title": "Transportation Planning", "description": "Optimize delivery routes for efficiency.", "date": "2025-03-25", "category": "Logistics", "active": false, "new_task": false, "completed": true, "failed": false, "priority": "Medium" }
     ],
     "taskNumbers": { "active": 2, "new_task": 1, "completed": 1, "failed": 0 }
+  },
+  {
+    "id": 6,
+    "firstName": "GuestEmployee",
+    "email": "guestemployee@example.com",
+    "password": "guest123",
+    "tasks": [
+      {
+        "title": "Sample Task 1",
+        "description": "This is a sample task for the guest employee.",
+        "date": "2025-03-30",
+        "category": "Sample",
+        "active": true,
+        "new_task": true,
+        "completed": false,
+        "failed": false,
+        "priority": "Medium",
+      },
+      {
+        "title": "Sample Task 2",
+        "description": "Another sample task for the guest employee.",
+        "date": "2025-04-01",
+        "category": "Sample",
+        "active": false,
+        "new_task": false,
+        "completed": true,
+        "failed": false,
+        "priority": "Low",
+      },
+    ],
+    "taskNumbers": { "active": 1, "new_task": 1, "completed": 1, "failed": 0 },
   }
 ];
 
@@ -72,6 +103,12 @@ const admin =  [{
     "firstName": "Admin Sahab",
     "email": "admin@example.com",
     "password": "123"
+  },
+  {
+    "id": 2,
+    "firstName": "GuestAdmin",
+    "email": "guestadmin@example.com",
+    "password": "123",
   }]
   
 // Save employees and admin data to localStorage if they don't exist
