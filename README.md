@@ -17,6 +17,11 @@ The **Employee Management System (EMS)** is a web application designed to manage
     - Email: `bob@example.com`, `eve@example.com`, etc.
     - Password: `123`
 
+### **Guest Login**
+- **Quick Interaction**: Explore the app without logging in.
+  - **Explore as Admin (Guest)**: Access the admin dashboard with sample data.
+  - **Explore as Employee (Guest)**: Access the employee dashboard with sample data.
+
 ### **Admin Dashboard**
 - **Add New Tasks**: Assign tasks to employees with properties like title, description, category, priority, and due date.
 - **View Task Status**: Monitor the status of tasks for all employees (New, Active, Completed, Failed).
@@ -51,35 +56,6 @@ The **Employee Management System (EMS)** is a web application designed to manage
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Node.js and npm installed on your machine.
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LordAizen1/ems.git
-   cd ems
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open the application in your browser:
-   ```
-   http://localhost:3000
-   ```
-
----
-
 ## Deployment
 
 The application is deployed using **GitHub Pages**. You can access it here:
@@ -107,13 +83,54 @@ https://LordAizen1.github.io/ems
 1. **Login**:
    - Use the provided credentials to log in as an admin or employee.
 
-2. **Admin Features**:
+2. **Guest Login**:
+   - Click **Explore as Admin (Guest)** to access the admin dashboard with sample data.
+   - Click **Explore as Employee (Guest)** to access the employee dashboard with sample data.
+
+3. **Admin Features**:
    - Add new tasks and assign them to employees.
    - View the status of all tasks across employees.
 
-3. **Employee Features**:
+4. **Employee Features**:
    - View tasks assigned to you, categorized by status.
    - Mark tasks as completed or failed.
 
 ---
 
+## Guest Login Functionality
+
+The **Guest Login** feature allows users to explore the app without needing to log in. Here's how it works:
+
+### **Explore as Admin (Guest)**
+- Click the **Explore as Admin (Guest)** button on the login screen.
+- You will be redirected to the **Admin Dashboard** with sample data.
+- You can:
+  - View all employees and their tasks.
+  - Add new tasks (note: changes won't be saved for guests).
+
+### **Explore as Employee (Guest)**
+- Click the **Explore as Employee (Guest)** button on the login screen.
+- You will be redirected to the **Employee Dashboard** with sample data.
+- You can:
+  - View tasks assigned to the guest employee.
+  - Mark tasks as completed or failed (note: changes won't be saved for guests).
+
+---
+
+## Notes for Guests
+- **Changes Won't Be Saved**: Any changes made while exploring as a guest (e.g., adding tasks, marking tasks as completed) will not be saved.
+
+---
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+- **Name**: Md Kaif
+- **Email**: mohdkaif2003@gmail.com
+- **GitHub**: [LordAizen1](https://github.com/LordAizen1)
+
+---
+
+Enjoy exploring the **Employee Management System**! 🚀
+
+---
